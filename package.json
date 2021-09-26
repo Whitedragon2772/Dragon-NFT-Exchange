@@ -1,0 +1,36 @@
+{
+  "name": "draconian-beats",
+  "version": "1.0.0",
+  "description": "Audio NFT Exchange",
+  "main": "index.js",
+  "scripts": {
+    "test": "Dbank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Whitedragon2772/ipfs-desktop.git"
+  },
+  "keywords": [
+    "Draconian"
+  ],
+  "author": "Colton Michael Martin-Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Whitedragon2772/ipfs-desktop/issues"
+  },
+  "homepage": "https://github.com/Whitedragon2772/ipfs-desktop#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.6.4"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.4",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "dotenv": "^10.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
