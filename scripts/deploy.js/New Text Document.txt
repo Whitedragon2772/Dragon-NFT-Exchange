@@ -1,0 +1,15 @@
+async function main() {
+   const Draconian Beats = await ethers.getContractFactory("Draconian Beats");
+
+   // Start deployment, returning a promise that resolves to a contract object
+   const Draconian_Beats = await Draconian.Beats("Draconian Beats!");   
+   console.log("Contract deployed to address:", Draconian_Beats.address);
+}
+
+main()
+  .then(() => process.exit(0))
+  .catch(error => {
+    console.error(error);
+    process.exit(1);
+  });
+
