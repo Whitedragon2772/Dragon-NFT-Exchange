@@ -1,0 +1,19 @@
+async function main() {
+   const Draconian Beats = await ethers.getContractFactory("Draconian Beats");
+
+   // Start deployment, returning a promise that resolves to a contract object
+   const Draconian_Beats = await Draconian.Beats("Draconian Beats!");   
+   console.log("Contract deployed to address:", Draconian_Beats.address);
+}
+
+main()
+  .then(() => process.exit(0))
+  .catch(error => {
+    console.error(error);
+    process.exit(1);
+  });
+<<<<<<< HEAD
+curl https://dashboard.alchemyapi.io/composer?composer_state=%7B%22chain%22%3A0%2C%22network%22%3A2%2C%22methodName%22%3A%22eth_getBlockByNumber%22%2C%22paramValues%22%3A%5B%22latest%22%2Ctrue%5D%7D
+=======
+
+>>>>>>> origin/master
